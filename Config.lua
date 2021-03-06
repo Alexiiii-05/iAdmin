@@ -56,7 +56,7 @@ iAdmin.TeleportPressed2 = 38
 iAdmin.Teleportationsmessage = "~o~Admin\n~s~Téléportation à ~b~ "
 
 -- Message
-iAdmin.KickAllMessage = "Tu as était kick pour que nous puissons effectué un reboot du serveur\nRejoins Nous sur discord\ndiscord.gg/alphav"
+iAdmin.KickAllMessage = "Tu as était kick pour que nous puissons effectué un reboot du serveur\nRejoins Nous sur discord\ndiscord.gg/servername"
 iAdmin.Givemessagemoney = "~o~Admin\n~s~Vous avez récuperer" 
 iAdmin.Removemessagemoney ="~o~Admin\n~s~Vous avez balancer"
 iAdmin.Nomarkeroffset = "~o~Admin\n~r~Aucun Marqueur"
