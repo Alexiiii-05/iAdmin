@@ -22,7 +22,7 @@ iAdmin.ColorMarkPlayer = {
 -- Change weather access
 iAdmin.TimeChangeAuttomattly = false -- false = le temps ne change pas toutes les 10 minutes
 iAdmin.AccessChangeWeather = { -- pour qu'il ai accès au function du menu pour changer le temps
-	"license:d3335a3aa03572bcb7c721629cb81a1e953989ad",
+	"license:",
 	--"license:"
 }
 
