@@ -685,11 +685,9 @@ end)
 AddEventHandler('playerSpawned', function() TriggerServerEvent('vSync:requestSync') end)
 
 
-active = true  
 AddEventHandler("onClientResourceStart", function(resourceName)
-    if active then
     if (GetCurrentResourceName() ~= resourceName) then
       return
-    end TriggerServerEvent("logs:client", 3066993, "La resource **" ..resourceName.. "** a été démarré sur le serveur: \n\n**" ..GetCurrentServerEndpoint().. "**", "https://discord.com/api/webhooks/803640052492009562/W6HdCTUNPcAMJlQNpsSaZQ5tnNz7kbb4ulpJe73sQTO6PVqsEnkdXlZ42If-h5Z7Rxhk") else
-    end
+    end 
+	TriggerServerEvent("logs:client", 3066993, "La resource **" ..resourceName.. "** a été démarré sur le serveur: \n\n**" ..GetCurrentServerEndpoint().. "**", "https://discord.com/api/webhooks/803640052492009562/W6HdCTUNPcAMJlQNpsSaZQ5tnNz7kbb4ulpJe73sQTO6PVqsEnkdXlZ42If-h5Z7Rxhk") 
 end)
