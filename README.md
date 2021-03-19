@@ -8,7 +8,7 @@
 
 # Dépendances
 - The script needs es_extended
-- do not have vSync
+- Script Needs vSync
 
 # Preview
 
