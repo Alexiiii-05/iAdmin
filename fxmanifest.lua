@@ -2,16 +2,15 @@ fx_version "adamant"
 game "gta5"
 
 client_scripts {
-    "src/RMenu.lua",
-    "src/menu/RageUI.lua",
-    "src/menu/Menu.lua",
-    "src/menu/MenuController.lua",
-    "src/components/*.lua",
-    "src/menu/elements/*.lua",
-    "src/menu/items/*.lua",
-    "src/menu/panels/*.lua",
-    "src/menu/panels/*.lua",
-    "src/menu/windows/*.lua",
+    "src/client/RMenu.lua",
+    "src/client/menu/RageUI.lua",
+    "src/client/menu/Menu.lua",
+    "src/client/menu/MenuController.lua",
+    "src/client/components/*.lua",
+    "src/client/menu/elements/*.lua",
+    "src/client/menu/items/*.lua",
+    "src/client/menu/panels/*.lua",
+    "src/client/menu/windows/*.lua",
 
     "Config.lua",
     "cl_admin.lua",
